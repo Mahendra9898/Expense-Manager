@@ -1,0 +1,37 @@
+
+
+.submitBtn {
+    width: 100%;
+    background: #45adc9;
+    border: 0;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.underLine {
+    text-align: center;
+    margin: 7px 0 0 0;
+    display: block;
+}
+
+.linkBtn {
+    border: 0;
+    background-color: unset;
+    text-decoration: underline;
+    color: #f6f6f7;
+    padding: 0;
+    margin: 0;
+}
+
+.linkBtn:hover {
+    color: rgb(240, 14, 18);
+    cursor: pointer;
+}
+
+.linkBtn:focus,
+.submitBtn:focus{
+    outline: none;
+}
